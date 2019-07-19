@@ -1,6 +1,0 @@
-mysql_host: ys-trunk-mysql-2.gm1.sysenv.priv
-#mysql_host: 127.0.0.1
-mysql_port: 3306
-mysql_dbname: ata_an
-mysql_user: ata
-mysql_password: "D01yONfJENd5"
