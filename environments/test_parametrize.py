@@ -23,7 +23,7 @@ def browser():
     browser.quit()
 """
 
-@pytest.mark.parametrize('language', ["ru", "en-gb", "ua"])
+@pytest.mark.parametrize('language', ["ru", "en-gb"])
 class TestLogin(object):
     def test_guest_should_see_login_link(self, browser, language):
         link = "http://selenium1py.pythonanywhere.com/{}/".format(language)
